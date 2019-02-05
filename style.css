@@ -1,0 +1,62 @@
+/* 
+SELETOR{
+    PROPRIEDADE; VALOR.
+ }
+ */
+
+ body{
+     font-family: sans-serif
+    margin: 0;
+ }
+
+header{
+    background-color: blueviolet;
+}
+
+.nav-header a {
+    color:yellow;
+}
+.cor-vermelha{
+    color:red;
+}
+
+#header-pesquisa {
+    color: green;
+}
+/* PLACEHOLDER É UM PSEUDO ELEMENTO E SÓ EXITE QUANDO ESTÁ EM IMPUT */
+#header-pesquisa::{
+color: aqua;
+}
+
+textarea{
+    resize: none;
+}
+
+.formulario-contato{
+    background-color: bisque;
+    border-radius: 10px;
+    box-shadow: 2px, 3px, 4px, 5px, 20px;
+}
+
+
+.formulario-contato p, .formulario-contato h3 {
+    font-size: 18pt;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.negrito:hover{
+    color: lawngreen;
+}
+img{
+    opacity: 0.5;
+}
+img:hover{
+    opacity: 1;
+}
+
+button {
+    cursor:pointer;
+}
